@@ -1,0 +1,109 @@
+/* Element selector - styles all instances of this HTML element */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ID selector - styles the element with this specific ID */
+#main-header {
+    background-color: #3D365C;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Class selector - styles all elements with this class */
+.content-section {
+    background: white;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    max-width: 1000px;
+}
+
+/* Styling the navigation */
+.main-nav {
+    background-color: #3D365C;
+    padding: 0.5rem;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    margin: 0 1rem;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #1f1742;
+}
+
+/* Styling the highlight paragraph */
+.highlight {
+    background-color: #f8f8d7;
+    padding: 1rem;
+    border-left: 4px solid #f1c40f;
+}
+
+/* Styling images in service cards */
+.service-card {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card img {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+    max-width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.service-card img:hover {
+    transform: scale(1.02);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #3D365C;
+    color: white;
+    margin-top: 2rem;
+}
+
+/* Using a different font for headings */
+h2, h3 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
